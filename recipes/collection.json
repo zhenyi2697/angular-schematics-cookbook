@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "add-dependencies": {
+      "description": "Add dependencies into package.json",
+      "factory": "./add-dependencies/index"
+    }
+  }
+}
